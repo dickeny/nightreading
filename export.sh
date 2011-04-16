@@ -3,5 +3,5 @@
 WWW="/var/www/nightreading"
 
 git pull
-git archive  | tar -C $WWW -xf -
+git archive  master | tar -C $WWW -xf -
 
