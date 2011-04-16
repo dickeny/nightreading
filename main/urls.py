@@ -30,7 +30,7 @@ urlpatterns = patterns('',
     (r'tool/build_recipe/$', tool.build_recipe),
 
     # 基本页面
-    (r'^/$', page.index),
+    (r'^/?$', page.index),
     #(r'^.*$', page.page404),
 )
 
