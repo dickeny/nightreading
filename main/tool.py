@@ -31,7 +31,7 @@ def build_recipe(request):
                 f.write(content)
                 f.close()
             cmd = EBOOK_CONVERT%(name, name+u'.mobi')
-            ret = os.system(cmd)
+            #ret = os.system(cmd)
             ret = cmd
         return {'ret': ret}
 
