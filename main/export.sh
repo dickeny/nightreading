@@ -2,6 +2,6 @@
 
 WWW="/var/www/nightreading"
 
-git update
+git pull
 git archive  | tar -C $WWW -xf -
 
