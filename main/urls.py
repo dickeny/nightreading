@@ -31,6 +31,6 @@ urlpatterns = patterns('',
 
     # 基本页面
     (r'^/$', page.index),
-    (r'^.*$', page.page404),
+    #(r'^.*$', page.page404),
 )
 
